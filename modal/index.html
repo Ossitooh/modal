@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Custome Css -->
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css">
+    <title>Newsletter Modal</title>
+</head>
+<body>
+    <header>
+        <div class="container-flex">
+            <h1>The <span>kitchen</span> Story</h1>
+            <p>Your number one sources for all things <span>food and diets</span></p>
+        </div>
+    </header>
+    <!-- Newsletter section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-container">
+                <h2>Subscribe</h2>
+                <p>Sign up to get the latest on food recipe, diets and health.</p>
+                <button class="show-modal">Sign Up</button>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal hidden">
+            <img class="modal-img" src="/src/img/profile_pic.svg">
+            <button class="close-modal">x</button>
+            <h3>Sign Up</h3>
+            <input class="modal-input" type="email" placeholder="Email">
+            <input class="modal-input" type="password" placeholder="Password">
+            <button class="sign-up-btn">Sign In</button>
+            <button class="forgot-pass">Forgot Password?</button>
+        </div>
+        <div class="overlay hidden"></div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="flex">
+                <!-- Logo & social media -->
+                <div class="logo-media">
+                    <!-- Logo -->
+                    <img class="ft-logo" src="https://img.icons8.com/fluent/96/000000/biscuits.png">
+                    <!-- Social Media -->
+                    <ul class="ft-social">
+                        <li><a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a></li>
+                        <li><a href="#"><img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/></a></li>
+                        <li><a href="#"><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a></li>
+                        <li><a href="#"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a></li>
+                    </ul>
+                </div>
+                <!-- footer info -->
+                <div>
+                    <p class="ft-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, adipisci ea ipsa, deleniti et accusantium soluta temporibus tempora error recusandae quo assumenda doloremque ducimus id suscipit velit voluptatem sint officia!</p>
+                </div>
+
+                <!-- Copy -->
+                <div class="copy">
+                    <p>2021 &#169; Develop and design by carlos from <a href="https://www.vissionari.com/">Vissionari.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Custome Js -->
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
